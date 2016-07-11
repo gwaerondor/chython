@@ -1,3 +1,4 @@
+#!/bin/bash
 INPUT=${1}
 OUTPUT=${INPUT}.translated.py
 
