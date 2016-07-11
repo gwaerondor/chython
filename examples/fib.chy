@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+
+头数字 = 整数(1) # 包括
+尾数字 = 整数(26) # 不包括
+
+定义 斐波那契(数字):
+	如果 数字 等于 2 或者 数字 等于 1:
+		返回 1
+	返回 斐波那契(数字 - 2) + 斐波那契(数字 - 1)
+
+取 第几个 自 范围(头数字, 尾数字):
+	打印 字符串(第几个) + ": " + 字符串(斐波那契(第几个))
+
+# head_nbr = int(1) # inclusive
+# tail_nbr = int(20) # not inclusive
+#
+# def fibonacci(nbr):
+# 	if nbr == 2 or nbr == 1:
+#		return 1
+#	return fibonacci(nbr - 2) + fibonacci(nbr - 1)
+#
+# iteration = 0
+# for current_nbr in range(head_nbr, tail_nbr):
+#	iteration = iteration + 1
+#	print str(iteration), ": ", fibonacci(current_nbr)
