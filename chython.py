@@ -17,7 +17,7 @@ keywords = {
           u"空":"None",
           u"等于":"==",
           u"少于":"<",
-          u"多余":">",
+          u"多于":">",
           u"少于或等于":"<=",
           u"少于或者等于":"<=",
           u"多于或等于":">=",
@@ -139,10 +139,8 @@ def to_python_terms(string):
 
 source_file = sys.argv[1]
 target_file = sys.argv[2]
-#print "Input file is {s}".format(s=source_file)
 chinese_source = codecs.open(source_file, encoding='utf-8', mode='r')
 english_target = open(target_file, 'w')
-#print "Output to {s}".format(s=source_file+".translated.py")
 
 line = chinese_source.readline()
 while line != '':
